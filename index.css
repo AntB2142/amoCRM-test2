@@ -414,6 +414,9 @@
 		 background-size: cover;
 		 padding: 40px 14px 59px;
 	}
+	.main__text_span {
+		text-transform: lowercase;
+   }
 	 .main__title {
 		 font-size: 36px;
 		 line-height: 44px;
