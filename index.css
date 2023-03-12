@@ -383,7 +383,7 @@
 		 flex-direction: column;
 	}
 	 .main__text-block {
-		 align-items: flex-start;
+		 align-items: center;
 		 margin-top: 45px;
 	}
 	 .main__gift-title, .main__gift-text, .main__bubble-list {
@@ -398,7 +398,7 @@
 	 .main__gifts-block {
 		 gap: 14px 10px;
 		 width: 320px;
-		 justify-content: space-around;
+		 justify-content: center;
 	}
 	 .main__gift-dash {
 		 display: inline;
@@ -407,6 +407,7 @@
  @media screen and (max-width: 545px) {
 	 .main {
 		 width: 100%;
+		 box-sizing: border-box;
 		 background-image: url('./img/bg-mobile.png');
 		 background-position: center;
 		 background-repeat: no-repeat;
@@ -418,7 +419,7 @@
 		 line-height: 44px;
 	}
 	 .main__title-block {
-		 width: 320px;
+		 width: 300px;
 	}
 	 .main__gifts-block {
 		 text-align: start;
